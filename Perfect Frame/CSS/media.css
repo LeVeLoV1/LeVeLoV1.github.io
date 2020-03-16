@@ -1,4 +1,4 @@
-/*Home Page*/
+/*Home Page////////////////////////////////////////////*/
 @media (min-width: 1700px) and (max-width: 3300px) {
 	main h2{
 		font-size: 70px;
@@ -30,7 +30,7 @@
 }
 @media (min-width: 0px) and (max-width: 456px) {
 	main{
-		background: url("../img/GalleryPhoto3.jpg") left 0px / cover no-repeat fixed;
+		/*background: url("../img/GalleryPhoto7.jpg") left 0px / cover no-repeat fixed;*/
 	}
 	main h2{
 		padding: 20px 0 60px 0;
@@ -48,7 +48,7 @@
 		overflow: hidden;
 	}
 }
-/*MyPhoto page_______________________________________________*/
+/*MyPhoto page/////////////////////////////////////////////////*/
 @media (min-width: 2011px) and (max-width: 3000px) {
 	.my_photo_img{
 		height: 500px;
@@ -116,7 +116,7 @@
 	}
 
 }
-/*for dropdown menu*/
+/*for dropdown menu /////////////////////////////////////////////////////*/
 @media (min-width: 0px) and (max-width: 884px) {
 	nav ul li{
 		display: none;
@@ -136,6 +136,18 @@
 	.gallery img:hover{
 		height: 220px;
 		transition: .8s
+	}
+	main h2{
+		font-size: 37px;
+		width: 90%;
+		margin: 0 auto;
+	}
+	main h4{
+		font-size: 25px;
+	}
+	.main_btn{
+		font-size: 23px;
+		margin: 0 0 15px 0;
 	}
 }
 @media (min-width: 480px) and (max-width: 693px) {
