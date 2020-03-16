@@ -1,0 +1,205 @@
+/*Home Page*/
+@media (min-width: 1700px) and (max-width: 3300px) {
+	main h2{
+		font-size: 70px;
+	}
+	main h4{
+		font-size: 50px;
+	}
+	nav ul{
+		padding: 30px;
+	}
+	.logo_img_nav{
+		padding: 20px;
+	}
+	.gallery img{
+		height: 400px;
+	}
+	.main_btn{
+		font-size: 40px;
+	}
+	footer p{
+		font-size: 25px;
+		padding: 15px 0;
+	}
+	.gallery img:hover{
+		cursor: pointer;
+		height: 420px;
+		transition: .8s
+	}
+}
+@media (min-width: 0px) and (max-width: 456px) {
+	main{
+		background: url("../img/GalleryPhoto3.jpg") left 0px / cover no-repeat fixed;
+	}
+	main h2{
+		padding: 20px 0 60px 0;
+		font-size: 24px;
+	}
+}
+@media (min-width: 0px) and (max-width: 491px) {
+	main h2{
+		font-size: 45px;
+	}
+	main h4{
+		font-size: 27px;
+	}
+	.gallery img{
+		overflow: hidden;
+	}
+}
+/*MyPhoto page_______________________________________________*/
+@media (min-width: 2011px) and (max-width: 3000px) {
+	.my_photo_img{
+		height: 500px;
+	}
+	nav ul li a{
+		font-size: 35px;
+		font-weight: 300;
+	}
+	.client_key{
+		font-size: 30px;
+		width: 60%;
+	}
+	.client_key_btn{
+		width: 20%;
+	}
+	section h3{
+		font-size: 45px;
+	}
+
+}
+@media (min-width: 1677px) and (max-width: 2011px) {
+	.my_photo_img{
+		height: 400px;
+	}
+	nav ul li a{
+		font-size: 26px;
+		font-weight: 300;
+	}
+	.client_key{
+		font-size: 40px;
+		width: 60%;
+	}
+	.client_key_btn{
+		width: 20%;
+		padding: 40px 5px 36px 5px;
+	}
+	section h3{
+		font-size: 35px;
+	}
+
+}
+@media (min-width: 1030px) and (max-width: 1340px) {
+	.my_photo_img{
+		height: 550px;
+	}
+
+}
+@media (min-width: 0px) and (max-width: 1070px) {
+	.my_photo_img{
+		height: 450px;
+	}
+	.client_key{
+		margin: 0 20px 10px 65px;
+		font-size: 27px;
+		width: 70%;
+	}	
+	.client_key_btn{
+		margin: 0 20px 10px 80px;
+		width: 77%;
+	}
+}
+@media (min-width: 600px) and (max-width: 884px) {
+	.my_photo_img{
+		height: 350px;
+	}
+
+}
+/*for dropdown menu*/
+@media (min-width: 0px) and (max-width: 884px) {
+	nav ul li{
+		display: none;
+	}
+	.fa-bars{
+		display: block;
+	}
+	.logo_img_nav{
+		left: -40px;
+	}
+	footer p{
+		width: 90%;
+	}
+	.gallery img{
+		height: 200px;
+	}
+	.gallery img:hover{
+		height: 220px;
+		transition: .8s
+	}
+}
+@media (min-width: 480px) and (max-width: 693px) {
+	.my_photo_img{
+		height: 250px;
+	}
+	.client_key{
+		margin: 0 20px 10px 45px;
+		font-size: 23px;
+		width: 70%;
+	}
+	.client_key_btn{
+		margin: 0 20px 10px 60px;
+		width: 80%;
+	}	
+}
+@media (min-width: 368px) and (max-width: 480px) {
+	.my_photo_img{
+		height: 190px;
+	}
+	.client_key{
+		margin: 0 0 10px 20px;
+		font-size: 17px;
+		width: 70%;
+	}
+	.client_key_btn{
+		margin: 0 20px 10px 30px;
+		width: 85%;
+	}	
+
+}
+@media (min-width: 0px) and (max-width: 368px) {
+	.my_photo{
+		width: 10%;
+	}
+	.my_photo_img{
+		height: 150px;
+		margin: 10px 0;
+	}
+	.client_key{
+		margin: 0 10px 10px 40px;
+		font-size: 13px;
+		padding: 10px;
+		width: 70%;
+	}
+	.client_key_btn{
+		margin: 0 20px 10px 60px;
+		padding: 10px;
+		width: 65%;
+		font-size: 18px;
+	}	
+	section h3{
+		font-size: 18px;
+		font-weight: 300;
+		text-align: center;
+	}
+	.logo_img_nav{
+		height: 70px;
+	}
+	nav ul{
+		padding: 10px 0;
+	}
+	.fa-bars{
+		margin: 0;
+		font-size: 30px;
+	}
+}
