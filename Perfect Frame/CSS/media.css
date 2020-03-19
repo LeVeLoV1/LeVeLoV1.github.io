@@ -48,6 +48,7 @@
 		overflow: hidden;
 	}
 }
+
 /*MyPhoto page/////////////////////////////////////////////////*/
 @media (min-width: 2011px) and (max-width: 3000px) {
 	.my_photo_img{
@@ -116,6 +117,7 @@
 	}
 
 }
+
 /*for dropdown menu /////////////////////////////////////////////////////*/
 @media (min-width: 0px) and (max-width: 884px) {
 	nav ul li{
@@ -213,5 +215,38 @@
 	.fa-bars{
 		margin: 0;
 		font-size: 30px;
+	}
+}
+
+/*About us////////////////////////*/
+@media (min-width: 990px) and (max-width: 1200px) {
+	.our_rules_number{
+		width: 40%;
+	}
+	.our_rules_number p{
+		margin-bottom: 0;
+	}
+	.our_rules_number h6{
+		margin-top: 0;
+	}
+	.our_rules_number_block_6{
+
+	}
+}
+@media (min-width: 0px) and (max-width: 990px) {
+	.our_rules_number{
+		width: 80%;
+	}
+	.our_rules_block_p{
+		font-size: 20px;
+		width: 80%;
+		margin: 40px auto;
+	}
+	.what_doing_title{
+		font-size: 40px;
+	}
+	.what_doing_block{
+		width: 80%;
+		margin: 0 auto;
 	}
 }
