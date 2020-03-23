@@ -29,9 +29,6 @@
 	}
 }
 @media (min-width: 0px) and (max-width: 456px) {
-	main{
-		/*background: url("../img/GalleryPhoto7.jpg") left 0px / cover no-repeat fixed;*/
-	}
 	main h2{
 		padding: 20px 0 60px 0;
 		font-size: 24px;
@@ -248,5 +245,10 @@
 	.what_doing_block{
 		width: 80%;
 		margin: 0 auto;
+	}
+}
+@media (min-width: 0px) and (max-width: 500px) {
+	.our_rules_number{
+		width: 100%;
 	}
 }

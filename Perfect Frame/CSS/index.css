@@ -25,7 +25,7 @@ nav ul li{
 nav ul li a{
 	text-decoration: none;
 	color: #fff;
-	padding: 0 20px;
+	padding: 0 35px;
 	font-size: 20px;
 	font-family: sans-serif; 
 }
@@ -43,6 +43,29 @@ nav ul li a:active{
 .fa-bars:active{
 	font-size: 31px;
 	color: #fffcc0;
+}
+.drop-down-menu{
+	background: #a2b6f4;
+	display: none;
+	margin: 0 auto;
+}
+.drop-down-menu ul{
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+.drop-down-menu li{
+	list-style: none;
+	padding: 20px 0;
+	text-align: center;
+}
+.drop-down-menu a{
+	color: #fff;
+	text-decoration:none; 
+	font-size: 24px;
+}
+.show{
+	display: block;
 }
 /*HOME*/
 main{
@@ -85,7 +108,7 @@ main h4 strong{
 	opacity: 0.75;
 }
 .gallery_paragraf{
-	font-size: 20px;
+	font-size: 24px;
     font-family: 'Roboto',Arial,sans-serif;
     font-weight: 500;
     color: #000;
