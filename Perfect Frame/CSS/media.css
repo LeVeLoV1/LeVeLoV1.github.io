@@ -61,6 +61,7 @@
 	}
 	.client_key_btn{
 		width: 20%;
+		padding: 26px 0 25px 0;
 	}
 	section h3{
 		font-size: 45px;
@@ -81,7 +82,7 @@
 	}
 	.client_key_btn{
 		width: 20%;
-		padding: 40px 5px 36px 5px;
+		padding: 34px 5px 30px 5px;
 	}
 	section h3{
 		font-size: 35px;
